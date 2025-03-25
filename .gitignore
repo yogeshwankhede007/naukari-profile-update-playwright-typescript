@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright specific
+playwright-report/
+test-results/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
