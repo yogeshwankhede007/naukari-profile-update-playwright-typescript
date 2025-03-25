@@ -22,7 +22,7 @@ export class LoginPage {
         await this.page.goto('https://www.naukri.com/');
         await this.page.waitForLoadState('networkidle'); 
         await this.page.screenshot({ path: 'screenshots/homepage.png' });
-        await expect(this.page.getByRole('link', { name: 'Naukri Logo' }).first()).toBeVisible();
+        await expect(this.page.getByRole('link', { name: 'Naukri Logo' }).first()).toBeVisible({ timeout: 10000 });
         await this.page.getByRole('link', { name: 'Login', exact: true }).click();
         await expect(this.page.getByRole('button', { name: 'Login', exact: true })).toBeVisible();
     }
