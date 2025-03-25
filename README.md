@@ -34,7 +34,7 @@ An advanced automation framework to seamlessly update **Naukri.com** profiles us
 ### **📸 Screenshots**
 > Sample screenshot of the automated profile update process:
 
-![Execution Screenshot](screenshots/execution.png)
+![Execution Screenshot](https://github.com/user-attachments/assets/97989d83-4da8-44b1-a27b-4bafbaa2263d)
 
 ### **📽️ Execution Video**
 > Watch the automation in action:
@@ -47,7 +47,7 @@ An advanced automation framework to seamlessly update **Naukri.com** profiles us
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/naukri-profile-update-playwright-typescript.git
+git clone https://github.com/yogeshwankhede007/naukari-profile-update-playwright-typescript.git
 cd naukri-profile-update-playwright-typescript
 ```
 
@@ -78,7 +78,7 @@ pipeline {
         cron('0 2 * * *')
     }
     stages {
-        stage('Checkout') { steps { git 'https://github.com/your-repo/naukri-profile-update-playwright-typescript.git' } }
+        stage('Checkout') { steps { git 'https://github.com/yogeshwankhede007/naukari-profile-update-playwright-typescript.git' } }
         stage('Install Dependencies') { steps { sh 'npm install' } }
         stage('Run Tests') { steps { sh 'npx playwright test' } }
         stage('Publish Report') {
