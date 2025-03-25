@@ -1,6 +1,9 @@
 import { test } from '@playwright/test';
+import dotenv from 'dotenv';
 import { LoginPage } from '../page-objects/LoginPage';
 import { ProfilePage } from '../page-objects/ProfilePage';
+
+dotenv.config();
 
 test.describe('Naukri Profile Tests', () => {
 
@@ -13,7 +16,7 @@ test.describe('Naukri Profile Tests', () => {
     const profilePage = new ProfilePage(page);
 
     await loginPage.navigateToLogin();
-    await loginPage.login('yogeshwankhede@outlook.in', 'Yogesh@2025');
+    await loginPage.login(process.env.NAUKRI_EMAIL as string, process.env.NAUKRI_PASSWORD as string);
     await profilePage.navigateToProfile();
     await profilePage.addKeySkill('Playwright');
     await page.close();
