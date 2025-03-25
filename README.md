@@ -39,7 +39,7 @@ An advanced automation framework to seamlessly update **Naukri.com** profiles us
 ### **📽️ Execution Video**
 > Watch the automation in action:
 
-[![Watch the video](screenshots/video-thumbnail.png)](screenshots/execution.mp4)
+[![Watch the video](screenshots/video-thumbnail.png)](https://github.com/user-attachments/assets/5f0154a1-5577-49f4-ace4-b7c2b1e09f1d)
 
 ---
 
