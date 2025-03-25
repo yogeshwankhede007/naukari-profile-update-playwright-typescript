@@ -5,10 +5,15 @@ An advanced automation framework to seamlessly update **Naukri.com** profiles us
 ## 📌 Features
 
 ✅ **Automated Profile Updates** – Keeps your Naukri profile fresh & updated.
+
 ✅ **Playwright + TypeScript Best Practices** – Ensures maintainability & scalability.
+
 ✅ **Jenkins CI/CD Integration** – Automates execution at scheduled intervals.
+
 ✅ **Headless Execution** – Runs efficiently in the background.
+
 ✅ **Email Reporting** – Sends test execution reports via email.
+
 ✅ **Error Handling & Logging** – Captures failures & logs execution details.
 
 ---
