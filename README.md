@@ -1,7 +1,5 @@
 # 🚀 Naukri Profile Updater | Playwright + TypeScript
 
-![Naukri Automation](screenshots/banner.png)
-
 An advanced automation framework to seamlessly update **Naukri.com** profiles using **Playwright & TypeScript**. This project runs in **headless mode**, integrates with **Jenkins for scheduled execution (2 AM daily)**, and delivers **detailed test reports via email**. Built with **best practices**, including the **Page Object Model (POM), structured logging, and CI/CD integration**.
 
 ## 📌 Features
@@ -117,8 +115,8 @@ This project is **MIT Licensed**. See the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 
-🔹 **GitHub:** [your-username](https://github.com/yogeshwankhede007)  
-🔹 **LinkedIn:** [your-profile](https://www.linkedin.com/in/ywankhede/)  
+🔹 **GitHub:** [username](https://github.com/yogeshwankhede007)  
+🔹 **LinkedIn:** [profile](https://www.linkedin.com/in/ywankhede/)  
 🔹 **Email:** yogiwankhede007@gmail.com  
 
 ---
