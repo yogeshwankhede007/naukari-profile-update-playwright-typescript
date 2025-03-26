@@ -20,9 +20,10 @@ export class LoginPage {
      */
     async navigateToLogin(): Promise<void>{
         await this.page.goto('https://www.naukri.com/');
+        await this.page.waitForLoadState('domcontentloaded');
         await this.page.waitForLoadState('networkidle'); 
         await this.page.setViewportSize({ width: 1280, height: 720 });
-        await this.page.screenshot({ path: 'screenshots/homepage.png' });
+        await this.page.screenshot({ path: 'screenshots/loginpage.png' });
         await expect(this.page.getByRole('link', { name: 'Naukri Logo' }).first()).toBeVisible({ timeout: 10000 });
         await this.page.getByRole('link', { name: 'Login', exact: true }).click();
         await expect(this.page.getByRole('button', { name: 'Login', exact: true })).toBeVisible();
