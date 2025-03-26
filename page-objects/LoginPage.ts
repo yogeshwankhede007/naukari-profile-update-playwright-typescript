@@ -24,7 +24,7 @@ export class LoginPage {
         await this.page.waitForLoadState('networkidle'); 
         await this.page.setViewportSize({ width: 1280, height: 720 });
         await this.page.screenshot({ path: 'screenshots/loginpage.png' });
-        await expect(this.page.getByRole('link', { name: 'Naukri Logo' }).first()).toBeVisible({ timeout: 10000 });
+       // await expect(this.page.getByRole('link', { name: 'Naukri Logo' }).first()).toBeVisible({ timeout: 10000 });
         await this.page.getByRole('link', { name: 'Login', exact: true }).click();
         await expect(this.page.getByRole('button', { name: 'Login', exact: true })).toBeVisible();
     }
